@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+header div, .pay-rent {
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    margin-left: 5px;
+}
+
+nav {
+    background: #444;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.underline {
+    width: 50px;
+    height: 3px;
+    background: #333;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}

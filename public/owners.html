@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="owners.css">
+    <title>Owner's Portal</title>
+</head>
+<body>
+    <header>
+        <h1>Owner's Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#maintenance">Maintenance Requests</a></li>
+                <li><a href="#contact">Contact Management</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="properties">
+            <h2>Your Properties</h2>
+            <div class="property-card">
+                <h3>Property Address 1</h3>
+                <p>Status: Active</p>
+                <p>Last Inspection: 2024-10-01</p>
+            </div>
+            <div class="property-card">
+                <h3>Property Address 2</h3>
+                <p>Status: Under Maintenance</p>
+                <p>Last Inspection: 2024-09-15</p>
+            </div>
+        </section>
+
+        <section id="maintenance">
+            <h2>Maintenance Requests</h2>
+            <form>
+                <label for="request">Submit a Maintenance Request:</label>
+                <textarea id="request" name="request" rows="4" placeholder="Describe your request..."></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <h3>Previous Requests</h3>
+            <ul>
+                <li>Leaky faucet - Status: Completed</li>
+                <li>Broken window - Status: In Progress</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Management</h2>
+            <p>If you have any questions, please reach out:</p>
+            <p>Email: <a href="mailto:info@estate-management.com">info@estate-management.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Estate Management. All rights reserved.</p>
+    </footer>
+</body>
+</html>

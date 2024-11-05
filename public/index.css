@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+body {
+    background-image: url(/images/bacground\ image.avif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    
+    
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+     display: flex; 
+     justify-content: flex-end;
+     gap: 2rem;
+     margin-right: 50px;
+     color: #fff;
+     
+
+}
+header div {
+    display: flex;
+    flex-direction: row;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+
+.pay-rent {
+
+    background-color:rgb(128, 10, 10);
+    padding: 2px 30px;
+}
+
+.real-estate{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    text-transform: uppercase;
+
+}
+
+.real-estate img{
+    width: 100px;
+    height: 100px;
+
+
+}
+.real-estate p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: 25px;
+    width: 20px;
+
+
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    gap: 0.8rem;
+    
+}
+nav ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+
+    
+}
+nav ul li:hover {
+    background-color:rgb(128, 10, 10);
+    padding: 0 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+
+
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.underline {
+    
+    width: 500px;
+    height: 1px;
+    background-color:rgb(226, 223, 223);
+    margin: 20px 0;
+}
+.vacancy{
+    margin: 20px 0;
+    background-color: rgb(128, 10, 10);
+    width: 30%;
+    padding: 4px;
+}
+.experience a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.main-tenants {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  rgb(128, 10, 10);
+    color: #fff;
+    padding: 15px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.tenants {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.sub-tenants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main-tenants a {
+    color: #fff;
+    text-decoration: none;
+}
+.main-owners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  #fff;
+    color: rgb(128, 10, 10);
+    padding: 15px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+    
+
+.owners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+
+}
+.sub-owners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+.main-owners a {
+    color:rgb(128, 10, 10);
+    text-decoration: none;
+   
+}
+
+.container{
+    
+    background-color: rgb(128, 10, 10);
+    margin: 50px auto;
+    width: 20rem;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+.dashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .dashboard a{
+    color: #fff;
+    text-decoration: none;
+}
+.container .dashboard a:hover {
+
+    color: red;
+
+}
+.container .login a{
+    color: #fff;
+    text-decoration: none;
+}
+.container .login a:hover{
+    color: red;
+}
+.container .sign-up a {
+    color: #fff;
+    text-decoration: none;
+}
+.container .sign-up a:hover{
+    color: red;
+}
